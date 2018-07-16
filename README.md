@@ -24,7 +24,7 @@
 
 3.springboot添加扫描包
 ```java
-@ServletComponentScan(basePackages={"common.tool"})
+@ServletComponentScan(basePackages={"com.tool"})
 ```
 
 4.logback使用[RequestId: %X{X-Head-RequestId}]获取RequestId
